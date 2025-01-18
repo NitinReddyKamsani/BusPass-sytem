@@ -12,7 +12,7 @@ app.use(express.json());
 app.use('/uploads', express.static('uploads'));
 
 // Connect to MongoDB Atlas
-mongoose.connect('mongodb+srv://admin:nitin@cluster0.n3p4bat.mongodb.net/BusApp', {
+mongoose.connect('***************', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
